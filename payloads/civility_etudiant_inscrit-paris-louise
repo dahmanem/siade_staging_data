@@ -1,0 +1,29 @@
+---
+description : Étudiant INSCRIT 
+params :
+  nom: "PARIS"
+  prenom: "Louise"
+  dateDeNaissance: "2004-01-01"
+  sexe: "f"
+  lieuDeNaissance: "75009"
+status: 200
+payload: |-
+  {
+    "ine": "1234567890Y",
+    "nomFamille": "PARIS",
+    "prenom": "Louise",
+    "dateNaissance": "2004-01-01",
+    "inscriptions": [
+      {
+        "dateDebutInscription": "2024-10-01",
+        "dateFinInscription": "2025-08-31",
+        "statut": "inscrit",
+        "codeCommune": "75009",
+        "etablissement": {
+          "uai": "0331023W",
+          "nomEtablissement": "Université Paris Saclay"
+        },
+        "regime": "formation initiale"
+      }
+    ]
+  }
